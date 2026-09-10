@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h2>Grandmaster Course Registration</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Course Preferences</legend>
+            <label for="course">Select Starting Module:</label>
+            <select id="course" name="course">
+                <option value="html">Module 1: HTML</option>
+                <option value="css">Module 2: CSS</option>
+                <option value="js">Module 3: JavaScript</option>
+            </select><br><br>
+
+            <label>Optional Add-ons:</label><br>
+            <input type="checkbox" id="cert" name="extras" value="certificate">
+            <label for="cert">Request Printed Certificate</label><br>
+            <input type="checkbox" id="tutor" name="extras" value="tutoring">
+            <label for="tutor">Request 1-on-1 Mentorship</label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Complete Registration">
+    </form>
+</body>
+</html>
