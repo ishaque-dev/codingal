@@ -1,0 +1,5 @@
+body {
+  background-image: linear-gradient(to bottom, darkblue, rgb(230, 26, 3));
+  background-repeat: no-repeat;
+  background-position: top center;
+}
